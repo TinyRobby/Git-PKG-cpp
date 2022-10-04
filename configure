@@ -1,1 +1,1 @@
-sudo apt install make gcc libcurl
+sudo apt install make gcc libcurl4 -y
