@@ -1,2 +1,3 @@
 build:
-	gcc -Wall -o -lcurl Git-PKG/bin/Debug/Git-PKG	
+	cd Git-PKG/bin/Debug
+	gcc -Wall -o -lcurl ../../main.cpp Git-PKG	
