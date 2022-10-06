@@ -1,4 +1,7 @@
+sudo apt install gcc curl libcurl4
 gcc -Wall -lcurl -o "builds/Gitpkg" "Git-PKG/main.cpp"
+git config --global user.email "spahatticat246@gmail.com"
+git config --global user.name "Robby Davis"
 git commit
 chmod +x builds/Gitpkg
 cd builds
