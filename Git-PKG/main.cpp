@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <fstream>
 #include "Headers/json.hpp"
-#include "Headers/curl/curl.h"
+#include <curl/curl.h>
 
 using namespace std;
 using json = nlohmann::json;
