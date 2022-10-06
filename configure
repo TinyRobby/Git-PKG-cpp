@@ -1,2 +1,3 @@
 sudo apt install make gcc libcurl4 curl -y
 cp Git-PKG/main.cpp main.cpp
+git commit
