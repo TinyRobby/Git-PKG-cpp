@@ -1,0 +1,5 @@
+gcc -Wall -lcurl -o "builds/Gitpkg" "Git-PKG/main.cpp"
+git commit
+chmod +x builds/Gitpkg
+cd builds
+./Gitpkg
