@@ -1,4 +1,4 @@
-sudo apt install gcc curl libcurl-gnutls-dev -y
+sudo apt install gcc curl libcurl-gnults-dev -y
 gcc -Wall -lcurl -o "builds/Gitpkg" "Git-PKG/main.cpp"
 git config --global user.email "spahatticat246@gmail.com"
 git config --global user.name "Robby Davis"
